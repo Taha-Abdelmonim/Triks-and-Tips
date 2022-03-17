@@ -1,3 +1,3 @@
-# button up
+# typewriter effect
 
 [go to show code on code pen](https://codepen.io/tahaabdelmonim/pen/popgjRR)
