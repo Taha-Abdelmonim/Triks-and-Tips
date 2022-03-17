@@ -17,3 +17,5 @@
 &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/32CD32/000000?text=+) - `Watched Code` => [**Taps 2**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20js/taps%202)
 
 &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/32CD32/000000?text=+) - `Watched Code` => [**down time**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20js/down%20time)
+
+&nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/32CD32/000000?text=+) - `Watched Code` => [**hide show table**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20js/hide%20show%20table)
