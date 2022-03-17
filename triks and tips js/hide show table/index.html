@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <h1>ds</h1>
+    <!-- Labels and textboxes -->
+    <div class="top-container">
+      <form action="">
+        <div class="user">
+          <label>Username</label>
+
+          <br />
+          <input type="text" class="userN" id="user-id" />
+        </div>
+        <div class="country">
+          <label>Country</label>
+          <br />
+          <select name="countires" id="dd" width="50px">
+            <option value="all">All</option>
+            <option value="germany">Germany</option>
+            <option value="greece">Greece</option>
+            <option value="spain">Spain</option>
+            <option value="poland">Poland</option>
+          </select>
+        </div>
+        <!-- button -->
+        <input type="submit" value="FIND USER" class="btn" onclick="searchFunction()" id="btn-id" />
+      </form>
+    </div>
+    <br />
+    <table id="table-id">
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th></th>
+          <th>Member since</th>
+          <th>Sales</th>
+          <th>Available articles</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <!-- <img src="public/woman.png" alt="" />
+            <img src="public/germany.png" alt="" /> -->
+            <span>Mary Nicholson</span>
+          </td>
+          <td>
+            <!-- <img src="public/check.png" alt="" /> -->
+            <!-- <img src="public/email.png" alt="" /> -->
+          </td>
+          <td>06.5.2022</td>
+          <td>5869</td>
+          <td>8363</td>
+        </tr>
+        <tr>
+          <td>
+            <!-- <img src="public/man.png" alt="" /> -->
+            <!-- <img src="public/spain.png" alt="" /> -->
+            <span>Jeremy Bryan</span>
+          </td>
+          <td>
+            <!-- <img src="public/check.png" alt="" /> -->
+            <!-- <img src="public/email.png" alt="" /> -->
+          </td>
+          <td>26.11.2021</td>
+          <td>3718</td>
+          <td>3540</td>
+        </tr>
+        <tr>
+          <td>
+            <!-- <img src="public/man.png" alt="" /> -->
+            <!-- <img src="public/greece.png" alt="" /> -->
+            <span>Colby Weaver</span>
+          </td>
+          <td>
+            <!-- <img src="public/check.png" alt="" /> -->
+            <!-- <img src="public/email.png" alt="" /> -->
+          </td>
+          <td>23.7.2021</td>
+          <td>9489</td>
+          <td>9360</td>
+        </tr>
+        <tr>
+          <td>
+            <!-- <img src="public/man.png" alt="" /> -->
+            <!-- <img src="public/poland.png" alt="" /> -->
+            <span>Mark Kirk</span>
+          </td>
+          <td>
+            <!-- <img src="public/check.png" alt="" /> -->
+            <!-- <img src="public/email.png" alt="" /> -->
+          </td>
+          <td>03.7.2021</td>
+          <td>7078</td>
+          <td>4139</td>
+        </tr>
+        <tr>
+          <td>
+            <!-- <img src="public/woman.png" alt="" /> -->
+            <!-- <img src="public/spain.png" alt="" /> -->
+            <span>Sopoline Hurst</span>
+          </td>
+          <td>
+            <!-- <img src="public/check.png" alt="" /> -->
+            <!-- <img src="public/email.png" alt="" /> -->
+          </td>
+          <td>26.1.2022</td>
+          <td>6000</td>
+          <td>9938</td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="./main.js"></script>
+  </body>
+</html>

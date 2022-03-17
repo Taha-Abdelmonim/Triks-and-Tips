@@ -1,0 +1,115 @@
+/* 1. html tags */
+
+body {
+  background-color: #f0f0f0;
+}
+
+table {
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+  text-align: left;
+}
+/* username and country labels */
+label {
+  font-weight: bold;
+}
+
+table,
+th,
+td {
+  width: 900px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+thead {
+  background-color: #000080;
+  color: white;
+}
+th,
+tr {
+  border: 0 solid white;
+}
+/* All image icons */
+img {
+  width: 15px;
+}
+
+/* 2.classes and ids */
+
+/* labels, textboxes and button */
+.top-container {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000080;
+  font-size: 20px;
+  margin: auto;
+  width: 900px;
+}
+
+/* div that contains country label and country drop down */
+.country {
+  position: absolute;
+  left: 15rem;
+  bottom: 0rem;
+  margin-left: 10rem;
+}
+
+/* username and drop down textboxes */
+#dd,
+.userN {
+  width: 23rem;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+/* drop down textbox */
+#dd {
+  height: 1.9rem;
+}
+
+/* Find user button */
+.btn {
+  position: absolute;
+  left: 25rem;
+  bottom: 0rem;
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 13px;
+  background: #000080;
+  padding: 15px;
+  text-decoration: none;
+  height: 1.9rem;
+  line-height: 0rem;
+  margin-left: 24rem;
+}
+
+/* 3.pseudo elements */
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+th:first-child {
+  text-align: center;
+}
+td:first-child {
+  color: blue;
+  font-weight: bold;
+}
+
+th:nth-child(5) {
+  text-align: right;
+}
+td:nth-child(5) {
+  color: blue;
+  text-align: right;
+  font-weight: bold;
+}
