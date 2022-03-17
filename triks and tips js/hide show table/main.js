@@ -2,12 +2,13 @@ let userName = document.getElementById("user-id"),
   tr = document.querySelectorAll("table tbody tr");
 let searchFunction = () => {
   let filter = userName.value;
+  let re = new RegExp(filter, "ig");
   if (filter) {
     tr.forEach((el) => {
       el.style.display = "none";
     });
     tr.forEach((el) => {
-      if (el.firstElementChild.lastElementChild.textContent.includes(filter)) {
+      if (el.firstElementChild.lastElementChild.textContent.match(re)) {
         el.style.display = "contents";
       }
     });
