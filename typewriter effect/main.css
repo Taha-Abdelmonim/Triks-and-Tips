@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #191919;
+}
+
+:root {
+  --main-color: rgb(255 255 255 / 80%);
+}
+p {
+  color: var(--main-color);
+  font-size: 30px;
+  width: 780px; /* You Can Use 28ch */
+  margin: 30px auto;
+  border-right: 2px solid var(--main-color);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: control-width 5s steps(80) 0s 2, blink 0.5s infinite;
+}
+@keyframes control-width {
+  from {
+    width: 0;
+  }
+  to {
+    width: 780px;
+  }
+}
+@keyframes blink {
+  from {
+    border-right-color: var(--main-color);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
