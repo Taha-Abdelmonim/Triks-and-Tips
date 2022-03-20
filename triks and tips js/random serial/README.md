@@ -1,3 +1,3 @@
 # random serial
 
-[go to show code on code pen](https://codepen.io/tahaabdelmonim/pen/bGaVOYL)
+[show code on codepen](https://codepen.io/tahaabdelmonim/pen/bGaVOYL)

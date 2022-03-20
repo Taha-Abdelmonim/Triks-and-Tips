@@ -1,3 +1,3 @@
 # random background
 
-[go to show code on code pen](https://codepen.io/tahaabdelmonim/pen/vYpLjyN)
+[show code on codepen](https://codepen.io/tahaabdelmonim/pen/vYpLjyN)

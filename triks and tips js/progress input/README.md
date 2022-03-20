@@ -1,3 +1,3 @@
 # progress input
 
-[go to show code on code pen](https://codepen.io/tahaabdelmonim/pen/GRyoomN)
+[show code on codepen](https://codepen.io/tahaabdelmonim/pen/GRyoomN)
