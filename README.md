@@ -1,8 +1,6 @@
 # Triks-and-Tips
-ss
----
 
-gg
+---
 
 - ## _triks and tips with js_
 
