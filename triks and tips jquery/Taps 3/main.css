@@ -1,0 +1,39 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #191919;
+  color: #fff;
+  /* height: 4000px; */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.my-container {
+  margin: 50px auto;
+  width: 800px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  display: inline-block;
+  padding: 10px;
+  background: #eee;
+  text-align: center;
+  cursor: pointer;
+}
+ul li.inactive {
+  background: #ccc;
+}
+.my-container div {
+  background: #eee;
+  padding: 10px;
+  min-height: 300px;
+}
+.my-container div:not(:first-of-type) {
+  display: none;
+}
