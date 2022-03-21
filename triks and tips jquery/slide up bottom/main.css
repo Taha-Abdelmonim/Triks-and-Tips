@@ -1,0 +1,28 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #191919;
+  color: #fff;
+  /* height: 4000px; */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+section {
+  margin: 20px auto;
+  width: 500px;
+  
+  font: 16px/200% Arial, Tahoma;
+}
+section h3 {
+  padding: 10px;
+  margin: 0;
+  background-color: #ddd;
+  cursor: pointer;
+}
+section div {
+  padding: 10px;
+  background-color: #eee;
+  display: none;
+}
