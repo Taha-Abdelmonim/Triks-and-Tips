@@ -1,0 +1,27 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #191919;
+  color: #fff;
+  /* height: 4000px; */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+div {
+  padding: 10px;
+  background-color: rgb(114, 113, 113);
+  width: 300px;
+  margin: 20px auto;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  padding: 10px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
