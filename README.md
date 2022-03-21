@@ -63,3 +63,5 @@
   &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/1565c0/000000?text=+) - `Watched Code` => [**Taps 3**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20jquery/Taps%203)
 
   &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/1565c0/000000?text=+) - `Watched Code` => [**change color**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20jquery/change%20color)
+
+  &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/1565c0/000000?text=+) - `Watched Code` => [**slide up bottom**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20jquery/slide%20up%20bottom)
