@@ -49,3 +49,5 @@
 - ## _triks and tips with jquery_
 
   &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/1565c0/000000?text=+) - `Watched Code` => [**mousemove**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20js/mousemove)
+
+  &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/1565c0/000000?text=+) - `Watched Code` => [**animate sun**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20js/animate%20sun)
