@@ -1,0 +1,36 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #191919;
+  color: #fff;
+  /* height: 4000px; */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 20px auto;
+  width: 940px;
+  text-align: center;
+  font-weight: bold;
+}
+.item {
+  width: 10%;
+  float: left;
+  background-color: #eee;
+  height: 200px;
+  line-height: 200px;
+  cursor: pointer;
+  color: #191919;
+  border: 1px solid #fff;
+}
+.info {
+  color: #191919;
+  float: left;
+  background-color: #ddd;
+  height: 200px;
+  width: 0;
+  display: none;
+}
