@@ -1,0 +1,92 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  /* background-color: #191919; */
+  /* color: #fff; */
+  /* height: 4000px; */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*  start fixed menu  */
+.fixed-menu {
+  background-color: #333;
+  color: #eee;
+  padding: 10px;
+  position: fixed;
+  left: -220px;
+  top: 0;
+  height: 100%;
+  width: 220px;
+  z-index: 9999;
+}
+
+.fixed-menu .fa-cog {
+  position: absolute;
+  right: -30px;
+  top: 90px;
+  background-color: #333;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+.fixed-menu .change-colors li {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-top: 5px;
+}
+/*  li  */
+.fixed-menu .change-colors [data-color="blue"] {
+  background-color: #3498db;
+}
+
+.fixed-menu .change-colors [data-color="red"] {
+  background-color: #e74c3c;
+}
+
+.fixed-menu .change-colors [data-color="green"] {
+  background-color: #16a085;
+}
+
+.fixed-menu .change-colors [data-color="purple"] {
+  background-color: #8e44ad;
+}
+/* h2 in home */
+h2 {
+  background-color: #8e44ad;
+  color: white;
+}
+[data-default-color="blue"] .skin-background {
+  background-color: #3498db;
+  color: #fff;
+}
+
+[data-default-color="red"] .skin-background {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+[data-default-color="green"] .skin-background {
+  background-color: #16a085;
+  color: #fff;
+}
+
+[data-default-color="purple"] .skin-background {
+  background-color: #8e44ad;
+  color: #fff;
+}
+
+.block {
+  min-height: 1200px;
+  background-color: #eee;
+  margin-bottom: 20px;
+  padding: 60px 0;
+  text-align: center;
+}
