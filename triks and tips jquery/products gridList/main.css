@@ -1,0 +1,84 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #191919;
+  /* color: #fff; */
+  /* height: 4000px; */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*        Products grid */
+.items {
+  width: 800px;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+.items .view-options {
+  overflow: hidden;
+  padding: 10px;
+}
+
+.items .view-options i {
+  float: right;
+  cursor: pointer;
+}
+
+.items .view-options i.active {
+  color: #ff4c33;
+}
+.items.grid-view .item {
+  width: 49%;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.items.grid-view .item.first {
+  margin-right: 1%;
+}
+
+.items.grid-view .item .date {
+  display: block;
+  color: #888;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.items.grid-view .item i {
+  display: block;
+  padding: 10px;
+  background-color: #eee;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.items.grid-view .item .description {
+  padding: 10px;
+  display: none;
+}
+
+.items.grid-view .item img {
+  width: 100%;
+  height: 150px;
+}
+
+.items.list-view .item img {
+  display: none;
+}
+.items.list-view .item {
+  margin-bottom: 1%;
+  background-color: #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+.items.list-view .item i {
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+}
