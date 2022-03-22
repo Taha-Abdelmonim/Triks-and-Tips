@@ -1,0 +1,53 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #191919;
+  /* color: #fff; */
+  /* height: 4000px; */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*       Shuffling          */
+.cards {
+  position: relative;
+  margin-top: 50px;
+  min-height: 300px;
+  z-index: 1;
+}
+.cards .card {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #333;
+  position: absolute;
+  left: 50%;
+  margin-left: -75px;
+  cursor: pointer;
+}
+
+.cards .card-one {
+  background-color: #34495e;
+}
+.cards .card-two {
+  background-color: #8e44ad;
+}
+.cards .card-three {
+  background-color: #c0392b;
+}
+.cards .card-four {
+  background-color: #2980b9;
+}
+.cards .card-five {
+  background-color: #d35400;
+}
+.cards .card-six {
+  background-color: #27ae60;
+}
+.cards .card-seven {
+  background-color: #f39c12;
+}
+.cards .card-eight {
+  background-color: #16a085;
+}
