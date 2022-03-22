@@ -85,3 +85,5 @@
   &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/1565c0/000000?text=+) - `Watched Code` => [**card**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20jquery/card)
 
   &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/1565c0/000000?text=+) - `Watched Code` => [**add tasks 2**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20jquery/add%20tasks%202)
+
+  &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/1565c0/000000?text=+) - `Watched Code` => [**typewriter effect with jquery**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20jquery/typewriter%20effect%20with%20jquery)
