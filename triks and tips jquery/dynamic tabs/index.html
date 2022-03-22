@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="block">
+      Home
+      <!--          Dynamic Tabs    -->
+      <div class="container">
+        <span class="switch-tabs">Switch View</span>
+        <div class="dynamic-tabs left-tabs">  
+          <ul class="tabs-list">
+          <li class="active" data-content=".content-one">One</1i>
+          <li data-content=".content-two">Two</li>
+          <li data-content=".content-three">Three</li>
+          <li data-content=".content-four">Four</li>
+          <li data-content=".content-five">Five</li>
+          </ul>
+          <div class="content-list">
+            <div class="content-one">This is Content Number One</div>
+            <div class="content-two">This is Content Number Two</div>
+            <div class="content-three">This is Content Number Three</div>
+            <div class="content-four">This is Comtent Number Four</div>
+            <div class="content-five">This is Content Number Five</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
