@@ -75,3 +75,5 @@
   &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/1565c0/000000?text=+) - `Watched Code` => [**button effects**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20jquery/button%20effects)
 
   &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/1565c0/000000?text=+) - `Watched Code` => [**progress 2**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20jquery/progress%202)
+
+  &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/1565c0/000000?text=+) - `Watched Code` => [**slide images**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20jquery/slide%20images)
