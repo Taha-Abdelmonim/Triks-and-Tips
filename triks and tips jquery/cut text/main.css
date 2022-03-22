@@ -1,0 +1,30 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #191919;
+  /* color: #fff; */
+  /* height: 4000px; */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*        Trimmed Texts     */
+.trimmed-texts {
+  margin: auto;
+  width: 800px;
+  text-align: left;
+}
+
+.trimmed-texts p {
+  background-color: #ddd;
+  padding: 10px;
+}
+
+.trimmed-texts p span {
+  cursor: pointer;
+}
+.trimmed-texts p:not(:last-child) {
+  margin-bottom: 10px;
+}
