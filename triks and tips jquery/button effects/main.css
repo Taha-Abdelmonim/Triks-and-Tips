@@ -1,0 +1,123 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  /* background-color: #191919; */
+  /* color: #fff; */
+  /* height: 4000px; */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*    Button Effects   */
+.buttons-effect {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  margin: 14px 18px 14px 16px;
+  width: 180px;
+  padding: 18px;
+  border-radius: 18px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.buttons-effect.from-left {
+  background-color: #e08610;
+}
+
+.buttons-effect.from-top {
+  background-color: #2980b9;
+}
+
+.buttons-effect span:first-child {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+}
+
+.buttons-effect.from-left span:first-child {
+  width: 0;
+  height: 100%;
+  background-image: linear-gradient(
+    to right,
+    #ff3300 33%,
+    #ff7300 33%,
+    #ffae00 66%,
+    #ffc400 66%,
+    #fbff00 100%
+  );
+}
+
+.buttons-effect.from-top span:first-child {
+  height: 0;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    #00a2ff 33%,
+    #0099ff 33%,
+    #0044ff 66%,
+    #2f00ff 66%,
+    #9900ff 100%
+  );
+}
+
+.buttons-effect span:last-child {
+  position: relative;
+  z-index: 2;
+}
+.buttons-effect.from-top:hover,
+.buttons-effect.from-left:hover {
+  color: rgb(0, 0, 0);
+}
+
+.buttons-effects {
+  display: flex;
+}
+
+.border-top,
+.border-left {
+  border-radius: 0;
+  background-color: #fff;
+  color: #2980b9;
+  overflow: visible;
+}
+
+.border-left span:first-child {
+  background-color: #2980b9;
+  width: 0;
+  height: 3px;
+  top: auto;
+  bottom: -3px;
+}
+
+.border-top span:first-child {
+  background-color: #2980b9;
+  width: 3px;
+  height: 0;
+  left: -3px;
+}
+
+/*          Bounce         */
+.bounce {
+  background-color: #a00202;
+  margin-top: 30px;
+  border-radius: 18px;
+  text-align: left;
+  position: relative;
+}
+
+.block {
+  min-height: 1200px;
+  background-color: #eee;
+  margin-bottom: 20px;
+  padding: 60px 0;
+  text-align: center;
+}
