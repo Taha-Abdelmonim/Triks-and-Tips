@@ -1,0 +1,33 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #191919;
+  /* color: #fff; */
+  /* height: 4000px; */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*        Auto Change Notes     */
+.text-ticker {
+  width: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.text-ticker h3 {
+  padding: 15px;
+  margin: 0;
+  background-color: #eee;
+}
+.text-ticker .ticker-list {
+  list-style: none;
+}
+.text-ticker .ticker-list li {
+  padding: 15px;
+}
+.text-ticker .ticker-list li:not(.active) {
+  display: none;
+}
