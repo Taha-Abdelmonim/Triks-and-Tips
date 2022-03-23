@@ -93,3 +93,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/1565c0/000000?text=+) - `Watched Code` => [**dynamic tabs**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20jquery/dynamic%20tabs)
 
   &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/1565c0/000000?text=+) - `Watched Code` => [**automatic email**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20jquery/automatic%20email)
+
+- ## _triks and tips with css_
+
+  &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/ff5722/000000?text=+) - `Unwatched` => [**input radio**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20css/input%20radio)
