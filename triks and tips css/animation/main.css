@@ -1,0 +1,41 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: hsl(0, 0%, 10%);
+  color: #fff;
+  /* height: 4000px; */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+a.heart-beat {
+  background-color: #f00;
+  color: #fff;
+  width: 150px;
+  height: 140px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 120px;
+  padding-top: 30px;
+}
+a.heart-beat:hover {
+  color: #fff;
+}
+a.heart-beat:hover i {
+  animation: heartbeat 0.5s infinite linear;
+}
