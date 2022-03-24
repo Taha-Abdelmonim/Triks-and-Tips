@@ -113,3 +113,5 @@
 - ## _projects 3d_
 
   &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/22fcfd/000000?text=+) - `Watched Code` => [**slider box**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/projects%203d/slider%20box)
+
+  &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/22fcfd/000000?text=+) - `Watched Code` => [**card box**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/projects%203d/card%20box)
