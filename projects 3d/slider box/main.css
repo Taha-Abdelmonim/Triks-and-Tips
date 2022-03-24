@@ -1,0 +1,200 @@
+body {
+  /* font-family: "Open Sans", sans-serif; */
+  /* background-color: hsl(0, 0%, 10%);  */
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background: url("https://media.istockphoto.com/photos/abstract-blue-digital-background-picture-id1146532466?k=20&m=1146532466&s=612x612&w=0&h=NjZrRzJH4nvxVmTGTvMrMrPGQ03fDNYTmRNoEiNSeCQ=");
+  background-size: cover;
+  background-position: center;
+  perspective: 5000px;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --container-wid: 30px;
+  --color-1: #010c29;
+  --color-2: #22fcfd;
+  --color-3: #8ff;
+  --color-4: #ffd700;
+  --transition: 2.2s;
+}
+
+.container {
+  position: relative;
+  transform-style: preserve-3d;
+  width: var(--container-wid);
+  height: var(--container-wid);
+  transform: rotateY(0deg);
+  transition: var(--transition);
+}
+.centerCube {
+  position: absolute;
+  transform-style: preserve-3d;
+  width: 100%;
+  height: 100%;
+}
+
+.centerCube .side {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#010c29, #22fcfd33, #010c29);
+  border: 1px solid #8ff;
+  -webkit-box-reflect: below 20px linear-gradient(transparent, #010c29);
+}
+.centerCube .side.front {
+  transform: translateZ(calc(0.5 * var(--container-wid)));
+}
+.centerCube .side.back {
+  transform: rotateY(180deg) translateZ(calc(0.5 * var(--container-wid)));
+}
+.centerCube .side.left {
+  transform: rotateY(270deg) translateZ(calc(0.5 * var(--container-wid)));
+}
+.centerCube .side.right {
+  transform: rotateY(90deg) translateZ(calc(0.5 * var(--container-wid)));
+}
+.slider {
+  position: absolute;
+  transform-style: preserve-3d;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+}
+.slider .slide {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: 0.8s;
+  background: #010c2977;
+  border: 1px solid #8ff5;
+  -webkit-box-reflect: below 5px linear-gradient(transparent, #010c29);
+}
+
+.slider .slide.front {
+  transform: translate(-50%, -50%) translateZ(110px);
+}
+.slider .slide.back {
+  transform: translate(-50%, -50%) rotateY(180deg) translateZ(110px);
+}
+.slider .slide.left {
+  transform: translate(-50%, -50%) rotateY(270deg) translateZ(110px);
+}
+.slider .slide.right {
+  transform: translate(-50%, -50%) rotateY(90deg) translateZ(110px);
+}
+
+.ang {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 12.5%;
+  height: 12.5%;
+  border: 2px solid transparent;
+  transform: translateZ(1px);
+}
+.ang:nth-child(1) {
+  border-left-color: #8ff;
+  border-top-color: #8ff;
+}
+.ang:nth-child(2) {
+  left: 100%;
+  transform: translate(-100%);
+  border-right-color: #8ff;
+  border-top-color: #8ff;
+}
+.ang:nth-child(3) {
+  left: 100%;
+  top: 100%;
+  transform: translate(-100%, -100%);
+  border-right-color: #8ff;
+  border-bottom-color: #8ff;
+}
+.ang:nth-child(4) {
+  top: 100%;
+  transform: translateY(-100%);
+  border-left-color: #8ff;
+  border-bottom-color: #8ff;
+}
+
+.content {
+  height: 100%;
+}
+.person {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 58px;
+  height: 100%;
+  transition: 0.8s;
+  transition-delay: 0s;
+}
+.imgBox {
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #8ff;
+  transition: 0.5s;
+}
+.front .imgBox {
+  background-image: url("https://e7.pngegg.com/pngimages/858/156/png-clipart-security-facial-recognition-system-access-control-software-face-detection-cartoon-man-portrait-cartoon-character-face.png");
+}
+.left .imgBox {
+  background-image: url("https://png.pngtree.com/png-clipart/20190920/original/pngtree-image-character-boy-brunette-half-body-png-image_4619062.jpg");
+}
+.back .imgBox {
+  background-image: url("https://hbeb.cc/wp-content/uploads/2019/06/3713.png");
+}
+.right .imgBox {
+  background-image: url("https://c0.klipartz.com/pngpicture/501/735/gratis-png-hombre-dibujo-de-dibujos-animados-hombre-de-dibujos-animados-de-piel-negra.png");
+}
+.testimonail {
+  position: absolute;
+  left: 155px;
+  top: 15.5px;
+  width: 275px;
+  padding: 10px;
+  background: #5559;
+  border: 1px solid #8ff;
+  transition: 1s;
+}
+.stars {
+  margin-bottom: 3px;
+  color: #ffd700;
+  font-size: 0.8em;
+}
+.testimonail p {
+  margin-bottom: 2px;
+  color: #fff;
+  font-weight: 300px;
+}
+
+.testimonail h4 {
+  color: #8ff;
+  letter-spacing: 2px;
+}
+.slide.active {
+  transition-delay: var(--transition);
+  width: 450px;
+  height: 155px;
+}
+.slide.active .content .person {
+  width: 160px;
+  transition-delay: var(--transition);
+}
+.slide.active .content .imgBox {
+  transition-delay: var(--transition);
+  width: 120px;
+  height: 120px;
+}
