@@ -107,3 +107,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/ff5722/000000?text=+) - `Watched Code` => [**animation**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20css/animation)
 
   &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/ff5722/000000?text=+) - `Watched Code` => [**button effects 2**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20css/button%20effects%202)
+
+- ## _projects 3d_
+
+  &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/ff5722/000000?text=+) - `Watched Code` => [**slider box**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/projects%203d/slider%20box)
