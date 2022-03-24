@@ -1,0 +1,52 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: hsl(0, 0%, 10%);
+  color: #fff;
+  /* height: 4000px; */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.spinner {
+  position: relative;
+  margin: 100px;
+}
+.spinner .circle {
+  position: absolute;
+  border: 3px solid transparent;
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: rotate linear infinite;
+}
+.spinner .circle.one {
+  height: 50px;
+  width: 50px;
+  left: 50px;
+  top: 50px;
+  animation-duration: 0.85s;
+}
+.spinner .circle.two {
+  height: 75px;
+  width: 75px;
+  top: 38px;
+  left: 38px;
+  animation-duration: 0.95s;
+}
+.spinner .circle.three {
+  height: 100px;
+  width: 100px;
+  top: 25px;
+  left: 25px;
+  animation-duration: 1.05s;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
