@@ -1,3 +1,3 @@
-# slider images
+# spinner loading
 
-[show code on codepen](https://codepen.io/tahaabdelmonim/pen/popbeNP)
+[show code on codepen](https://codepen.io/tahaabdelmonim/pen/PoERaGo)
