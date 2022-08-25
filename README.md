@@ -4,7 +4,7 @@
 
 - ## _triks and tips with js_
 
-  &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/32CD32/000000?text=+) - `Watched Code` => [**random serial**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20js/random%20serial)
+  &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://dummyimage.com/60x60/22ff00/000000.png&text=success) - `Watched Code` => [**random serial**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20js/random%20serial)
 
   &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/32CD32/000000?text=+) - `Watched Code` => [**taps**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20js/taps)
 
@@ -57,6 +57,8 @@
   &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/32CD32/000000?text=+) - `Watched Code` => [**move box touch**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20js/move%20box%20touch)
 
   &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/32CD32/000000?text=+) - `Watched Code` => [**particles js**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20js/particles%20js)
+
+  &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://via.placeholder.com/12/32CD32/000000?text=+) - `Watched Code` => [**particles js**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20js/Circular%20Progress%20Bar)
 
 - ## _triks and tips with jquery_
 
