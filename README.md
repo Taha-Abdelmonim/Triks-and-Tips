@@ -58,7 +58,7 @@
 
   &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://dummyimage.com/20x20/22ff00/000000.png&text=success) - `Watched Code` => [**particles js**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20js/particles%20js)
 
-  &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://dummyimage.com/20x20/22ff00/000000.png&text=success) - `Watched Code` => [**particles js**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20js/Circular%20Progress%20Bar)
+  &nbsp;&nbsp;&nbsp;&nbsp; ![CheckBox](https://dummyimage.com/20x20/22ff00/000000.png&text=success) - `Watched Code` => [**Circular Progress Bar**](https://github.com/Taha-Abdelmonim/Triks-and-Tips/tree/main/triks%20and%20tips%20js/Circular%20Progress%20Bar)
 
 - ## _triks and tips with jquery_
 
